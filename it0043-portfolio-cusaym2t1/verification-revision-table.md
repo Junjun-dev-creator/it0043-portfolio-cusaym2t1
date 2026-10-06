@@ -1,0 +1,14 @@
+| Requirement | Problem found in `ai-sample.html` | Revision made | Verification |
+|---|---|---|---|
+| Create four portfolio pages | The AI created only one homepage. | Created `index.html`, `about.html`, `skills.html`, and `contact.html`. | All four files exist and open successfully. |
+| Use semantic HTML structure | Content mainly used generic `<div>` elements. | Added meaningful `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>` elements. | Inspected each page and confirmed the required semantic elements are present. |
+| Create usable navigation | Navigation links pointed to sections on one page only. | Updated navigation to link between `index.html`, `about.html`, `skills.html`, and `contact.html`. | Tested every navigation link in the browser. |
+| Include meaningful images | The profile area used a styled `<div>` instead of a real image. | Added images where appropriate and provided meaningful `alt` text. | Checked that every image has an accurate `alt` attribute. |
+| Create a skills data table | Skills were shown as an unordered list. | Added a real table to `skills.html` with `<caption>`, `<thead>`, `<tbody>`, and `<th scope>`. | Confirmed the table structure in the HTML and viewed it in the browser. |
+| Create a contact form | The AI only displayed email and phone text. | Added a form to `contact.html` with labels connected using `for` and `id` attributes. | Confirmed every form field has a label, correct input type, and appropriate `required` attribute. |
+| Use meaningful project content | Projects were displayed with generic `<div>` containers. | Used semantic `<article>` elements for individual projects. | Confirmed each project is contained in an `<article>`. |
+| Improve link accessibility and security | External links used `target="_blank"` without security attributes. | Added `rel="noopener noreferrer"` to external links. | Inspected external links and confirmed the security attribute is present. |
+| Make contact details usable | Email and phone numbers were plain text. | Used `mailto:` and `tel:` links. | Tested both links in the browser. |
+| Preserve the original AI output | The AI output could be changed during revision. | Saved the original generated page unchanged as `ai-sample.html`. | Compared `ai-sample.html` with the revised pages and confirmed the sample remains unchanged. |
+| Test the completed website | The AI output was not verified across multiple pages. | Opened the pages using Live Server and tested navigation, form fields, table content, and layout. | No broken page links or missing required elements were found during testing. |
+| Commit the work | Changes were not yet recorded after each required stage. | Committed the pages and later revisions using Git. | Checked Git history and confirmed the commits are present on the `main` branch. |
